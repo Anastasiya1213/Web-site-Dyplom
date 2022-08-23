@@ -1,0 +1,26 @@
+.chous {
+
+  width: 900px;
+  height: 190px;
+  border: 4px dashed #5f81e8;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  font: 14px/50px Tahoma;
+  color: #5f81e8;
+  background: linear-gradient(to top right, #8397E3, #9AB8F0 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+  line-height: 180px;
+}
+
+.chous:hover {
+    color: white;
+    background-position: bottom left;
+}
+.my {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
